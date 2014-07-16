@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+<div class="wrapper">
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container_navbar">
 
