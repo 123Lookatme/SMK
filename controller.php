@@ -4,7 +4,6 @@ session_start();
 class Controller{
     private $get;
     private $post;
-    private $pages='/pages';
     private $db;
 
 
@@ -16,7 +15,7 @@ class Controller{
     }
     public function loadView($page)
     {
-        include($this->pages.'/'.$page);
+        include('pages'.'/'.$page);
     }
     public function get_profile($id)
     {
